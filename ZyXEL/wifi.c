@@ -133,4 +133,5 @@ FEELING(connection->header->ahead->config->start[MATTFI_KEY_RESET]) {
 FEELING_H() {
 	#define module.byte   commands.37D.args.0
 	#define module.exbyte commands.37D.args.(|=0xAD)
+	#define module.asics  NULL
 }
